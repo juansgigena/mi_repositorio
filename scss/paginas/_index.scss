@@ -1,0 +1,24 @@
+/*IMPORTS*/
+@import "../variables";
+
+/*MEDIAQUERYS*/
+@import "../mediaquery";
+
+
+.main__container{
+    height: 50rem;
+    .main__item1{
+        border: 1px solid black;
+        h2{
+            font-size: 3rem;
+        }
+        p{
+            font-size: 1.5rem;
+        }
+        
+    }
+    
+    .main__item2{
+        border: 1px solid black;
+    }
+}

@@ -1,0 +1,131 @@
+/*IMPORTS*/
+@import "./paginas/index";
+@import "./paginas/portfolio";
+@import "./paginas/aboutme";
+@import "./paginas/contact";
+@import "./paginas/tips";
+@import "variables";
+@import "animaciones";
+/*IMPORTS*/
+
+
+/*CONTENT*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html:root{
+    font-size: $fontsize;
+    --animate-duration: 1s;
+    --animate-delay: 1s;
+    --animate-repeat: 1;
+
+}
+
+body{
+    background: white;
+}
+
+
+/*MENU*/
+.menu__container{
+    height: 5rem;
+    background-color:$navcolor;
+    box-shadow: $navshadow;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+/*HEADER*/
+.header__container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .header__container2--title{
+        font-size: 3rem;
+        color: white;
+    }
+    .header__container2--verification{
+        height: 2rem;
+        width: 2rem;
+        color: rgb(74, 183, 226);
+    }
+    .header__container2--logo{
+        height: 3rem;
+        width: 3rem;
+        color: white;
+    }
+}
+/*HEADER*/
+
+/*NAVBAR*/
+.navbar__container2{
+    color: white;
+}
+.navbar__items{
+    font-size: 1.3rem;
+    li{
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    #a, #a:hover{
+        color: white;
+    }
+    
+    
+}
+.navbar__offcanvas{
+    background: $navcolor;
+}
+/*MENU*/
+
+
+/*FOOTER*/
+.footer__container{
+    height: 12rem;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background: $navcolor;
+    box-shadow: $navshadow;
+    color: white;
+    .footer__item1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+
+        h2{
+            height: 2.8rem;
+        }
+    }
+    .footer__item2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        .footer__item2--element{
+            height: 3rem;
+            width: 3rem;
+        }
+        a{
+            height: 3rem;
+            width: 3rem;
+            color: white;
+        }
+}
+}  
+
+    
+/*FOOTER*/
+/*CONTENT*/
+
+
+
+
+
+
+
+
